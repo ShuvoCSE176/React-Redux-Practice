@@ -15,7 +15,7 @@ const Shop = () => {
     ]
     return (
         <div>
-            <h4>This is shop</h4>
+            <h2>This is shop</h2>
 
             {
                 products.map(pd =><Products product={pd}></Products>)
